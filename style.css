@@ -1,0 +1,28 @@
+
+.header{
+    text-align: center;
+
+}
+
+.banner{
+    background-color: rgb(144, 177, 82);
+}
+
+.banner h1{
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    padding: 10px;
+    margin: 0 0;
+    padding: 10px;
+}
+
+.banner p{
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    padding-bottom: 10px;
+    margin: 0 0;
+}
+
+
