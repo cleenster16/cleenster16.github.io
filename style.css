@@ -11,12 +11,13 @@ h2{
     letter-spacing: 0.05em;
 }
 
-h3{
-    font-size: 20px;
+h4{
+    font-size: 18px;
 }
 
 p{
     font-size: 18px;
+    line-height: 1.5;
 }
 
 a:link{
@@ -112,8 +113,7 @@ a:active{
 
 .fas, .far, .fab{
     margin-right: 15px;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 
 .sidebar .section{
@@ -153,11 +153,25 @@ a:active{
 
 .education, .experience{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+}
+
+.year{
+    width: 300px; 
+    float: left;
+}
+
+.job{
+    width: 300px;
+    float: right;
+}
+
+.job p{
+    font-size: 16px;
 }
 
 .skills, .references{
-    height: 250px;
+    height: 210px;
     display: flex;
     flex-flow: column wrap;
     overflow: auto;
