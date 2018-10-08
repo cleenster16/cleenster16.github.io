@@ -20,6 +20,8 @@ p{
     line-height: 1.5;
 }
 
+
+/*  Change the appearance of the links on the resume */
 a:link{
     color: #000;
     text-decoration: none;
@@ -40,6 +42,8 @@ a:active{
     text-decoration: none;
 }
 
+
+/*  Overall layout of the entire webpage  */
 .grid{
     background-color: #FFF;
     display: grid;
