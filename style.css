@@ -179,6 +179,10 @@ a:active{
     overflow: auto;
 }
 
+.skills li, .extra-curricular li{
+    letter-spacing: 0.05em;
+}
+
 .skills h1{
     width: 100%;
 }
